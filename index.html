@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Pathway+Extreme&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <h1>Dojonary</h1>
+        <input class="search" placeholder="search">
+        <button onclick="cambiar(this)" class="login">Login</button>
+    </nav>
+    <main>
+        <div class="columna izquierda">
+            <div class="tarjeta1">
+                <div class="izq">
+                    <h2>ninja</h2>
+                    <h4>noun</h4>
+                    <h4>plural:ninjas</h4>
+                    <button onclick="Aviso()" class="likes"> 13 likes</button>
+                </div>
+                <div class="der">
+                    <h4> A practitioner skilled in the <a href="#" class="enlace">Japanese</a> art of <a href="#" class="enlace"> ninjutsu</a></h4>
+                </div>
+            </div>
+            <div class="tarjeta2">
+                <div class="izq">
+                    <h2>ninja</h2>
+                    <h4>noun</h4>
+                    <h4>plural:ninjas</h4>
+                    <button onclick="Aviso()" class="likes"> 37 likes</button>
+                </div>
+                <div class="der">
+                    <h4>A <span><a href="#" class="enlace"> programmer</a></span> who breaks down problems with<span><a href="#" class="enlace"> zen</a></span>-like
+                    focus</h4>
+                </div>
+            </div>
+        </div>
+        <div class="columna derecha">
+            <div class="tarjeta3">
+                <h3>Dojonary is defined by YOU</h3>
+                <button onclick="eliminar(this)" class="AddDefinition">Add Definition</button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>  
+</body>
+</html>

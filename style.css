@@ -1,0 +1,124 @@
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family:'Pathway Extreme', sans-serif;
+}
+
+main {
+    background-color: whitesmoke;
+    width: 720px;
+    height: 500px;
+    margin-left: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    height: 40px;
+    background-color: rgb(191, 186, 186);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right:  600px;
+    margin-left: 600px;
+}
+
+.login {
+    width: 50px;
+    height: 20px;
+    color: white;
+    background-color: blue;
+    border: 2px solid #000000;
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #000000;
+}
+
+.search{
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.columna_izquierda {
+    display: flex;
+    flex-direction: column;
+}
+
+.columna_derecha {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta1 {
+    border: 2px solid black;
+    width: 390px;
+    height: 140px;
+    margin: 15px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta2 {
+    border: 2px solid black;
+    width: 390px;
+    height: 140px;
+    margin: 15px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tarjeta3 {
+    border: 2px solid black;
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.izq{
+    margin: 5px;
+    margin-left: 20px;
+    text-align:center;
+}
+
+.der{
+    margin: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.enlace{
+    color: rgb(61, 61, 224);
+}
+
+.likes{
+    background-color: rgb(237, 207, 124);
+    border: 2px solid black;
+    width: 75px;
+    height: 25px;
+    box-shadow: 2px 2px 2px #000000;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.AddDefinition {
+    background-color: rgb(125, 159, 125);
+    border: 2px solid black;
+    width: 130px;
+    height: 25px;
+    box-shadow: 2px 2px 2px #000000;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
